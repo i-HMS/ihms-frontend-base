@@ -1,0 +1,37 @@
+{
+	"name":"ihms/ihms-frontend-base",
+	"type":"ihms-web",
+	"description":"iHMS base frontend",
+	"authors":[
+		{
+			"name":"Laurent Declercq",
+			"email":"l.declercq@nuxwin.com",
+			"role":"project lead / developer"
+		}
+	],
+	"license":"GPL-2.0+",
+	"keywords":[
+		"ihms",
+		"frontend"
+	],
+	"repositories":[
+		{
+			"packagist":false
+		},
+		{
+			"type":"composer",
+			"url":"http://packages.i-hms.net/"
+		}
+	],
+	"minimum-stability": "dev",
+	"require":{
+		"PHP":">=5.3.3",
+		"ihms/ihms-installer":"dev-master",
+		"ihms/ihms-base":"dev-master"
+	},
+	"extra":{
+		"branch-alias":{
+			"dev-master":"0.0.1-dev"
+		}
+	}
+}
